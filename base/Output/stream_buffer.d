@@ -1,0 +1,14 @@
+..\..\output\stream_buffer.o: ..\..\Drivers\SYSTEM\FreeRTOS\src\stream_buffer.c
+..\..\output\stream_buffer.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\stream_buffer.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\stream_buffer.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\FreeRTOS.h
+..\..\output\stream_buffer.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\stream_buffer.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\FreeRTOSConfig.h
+..\..\output\stream_buffer.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\projdefs.h
+..\..\output\stream_buffer.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\portable.h
+..\..\output\stream_buffer.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\deprecated_definitions.h
+..\..\output\stream_buffer.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\portmacro.h
+..\..\output\stream_buffer.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\mpu_wrappers.h
+..\..\output\stream_buffer.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\task.h
+..\..\output\stream_buffer.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\list.h
+..\..\output\stream_buffer.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\stream_buffer.h

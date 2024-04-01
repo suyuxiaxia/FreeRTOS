@@ -1,0 +1,12 @@
+..\..\output\list.o: ..\..\Drivers\SYSTEM\FreeRTOS\src\list.c
+..\..\output\list.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\list.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\FreeRTOS.h
+..\..\output\list.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\list.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\list.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\FreeRTOSConfig.h
+..\..\output\list.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\projdefs.h
+..\..\output\list.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\portable.h
+..\..\output\list.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\deprecated_definitions.h
+..\..\output\list.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\portmacro.h
+..\..\output\list.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\mpu_wrappers.h
+..\..\output\list.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\list.h

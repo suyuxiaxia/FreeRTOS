@@ -1,0 +1,16 @@
+..\..\output\tasks.o: ..\..\Drivers\SYSTEM\FreeRTOS\src\tasks.c
+..\..\output\tasks.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\tasks.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\tasks.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\FreeRTOS.h
+..\..\output\tasks.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\tasks.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\tasks.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\FreeRTOSConfig.h
+..\..\output\tasks.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\projdefs.h
+..\..\output\tasks.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\portable.h
+..\..\output\tasks.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\deprecated_definitions.h
+..\..\output\tasks.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\portmacro.h
+..\..\output\tasks.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\mpu_wrappers.h
+..\..\output\tasks.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\task.h
+..\..\output\tasks.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\list.h
+..\..\output\tasks.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\timers.h
+..\..\output\tasks.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\stack_macros.h

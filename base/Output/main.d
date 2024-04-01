@@ -62,3 +62,12 @@
 ..\..\output\main.o: ..\..\Drivers\./SYSTEM/usart/usart.h
 ..\..\output\main.o: D:\MDK5.36\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\main.o: ..\..\Drivers\./BSP/LED/led.h
+..\..\output\main.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\FreeRTOS.h
+..\..\output\main.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\FreeRTOSConfig.h
+..\..\output\main.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\projdefs.h
+..\..\output\main.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\portable.h
+..\..\output\main.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\deprecated_definitions.h
+..\..\output\main.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\portmacro.h
+..\..\output\main.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\mpu_wrappers.h
+..\..\output\main.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\task.h
+..\..\output\main.o: ..\..\Drivers\SYSTEM\FreeRTOS\Inc\list.h

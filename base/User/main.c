@@ -22,16 +22,17 @@
 #include "./SYSTEM/delay/delay.h"
 #include "./SYSTEM/usart/usart.h"
 #include "./BSP/LED/led.h"
+#include "FreeRTOS.h"
+#include "task.h"
 
 
 int main(void)
 {
-    HAL_Init();                                 /* 初始化HAL库 */
-    sys_stm32_clock_init(RCC_PLL_MUL9);         /* 设置时钟,72M */
-    delay_init(72);                             /* 初始化延时函数 */
-    led_init();                                 /* 初始化LED */
+    led_init();
+
+  //  xTaskCreate()    
     
-    while(1)
+    while(1)             
     {
         LED0(0);                                /* LED0 亮 */
         LED1(1);                                /* LED1 灭 */
