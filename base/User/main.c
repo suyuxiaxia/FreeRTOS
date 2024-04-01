@@ -26,20 +26,39 @@
 #include "task.h"
 
 
-int main(void)
-{
-    led_init();
-
-  //  xTaskCreate()    
-    
-    while(1)             
+ void task1( void  * args ){
+        while(1)             
     {
         LED0(0);                                /* LED0 ÁÁ */
         LED1(1);                                /* LED1 Ãð */
-        delay_ms(500);
+        vTaskDelay(100);
         LED0(1);                                /* LED0 Ãð */
         LED1(0);                                /* LED1 ÁÁ */
-        delay_ms(500);
+        vTaskDelay(100);
+    }
+        
+ }
+
+ 
+TaskHandle_t  handle;
+
+int main(void)
+{
+    led_init();
+             
+
+    xTaskCreate(task1,"task1",128,NULL,2,&handle);   
+
+    vTaskStartScheduler();    
+    
+    while(1)             
+    {
+//        LED0(0);                                /* LED0 ÁÁ */
+//        LED1(1);                                /* LED1 Ãð */
+//        delay_ms(500);
+//        LED0(1);                                /* LED0 Ãð */
+//        LED1(0);                                /* LED1 ÁÁ */
+//        delay_ms(500);
     }
 }
 
